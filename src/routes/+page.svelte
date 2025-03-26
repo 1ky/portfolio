@@ -1,5 +1,5 @@
 <script>
-	import { SiArchlinux, SiCss3, SiGit, SiGithub, SiHtml5, SiJavascript, SiMongodb, SiMysql, SiPython, SiReact, SiSvelte, SiTailwindcss, SiTypescript } from "@icons-pack/svelte-simple-icons";
+	import { SiArchlinux, SiCss3, SiGit, SiGithub, SiGraphql, SiHtml5, SiJavascript, SiMongodb, SiMysql, SiPython, SiReact, SiSvelte, SiTailwindcss, SiTypescript } from "@icons-pack/svelte-simple-icons";
     import shibuya from '$lib/assets/shibuya-crossing.jpg';
     import me from '$lib/assets/myself.jpg';
 </script>
@@ -18,13 +18,18 @@
 
         <!-- Developer grid -->
         <div class="lg:col-span-4 lg:row-span-1 bg-amber-300/50 rounded-3xl flex justify-center items-center text-white/75">
-            <h2 class="text-3xl font-semibold text-white">Frontend/Full Stack Developer</h2>
+            <h2 class="text-3xl font-semibold text-white p-4">Frontend/Full Stack Developer</h2>
+        </div>
+
+        <!-- Decorative image 1 -->
+        <div class="lg:col-span-2 lg:row-span-2 bg-main rounded-3xl lg:flex justify-center items-center text-white/75 overflow-hidden hidden">
+            <img src={me} alt="Kyle Shepherd" class="object-cover h-full w-full">
         </div>
 
         <!-- Specialties grid -->
         <div class="lg:col-span-2 lg:row-span-2 bg-main rounded-3xl flex justify-center items-center text-white/75">
             <div class="flex flex-col justify-center items-center">
-                <h2 class="text-3xl font-semibold text-white">Technologies</h2>
+                <h2 class="text-3xl font-semibold text-white p-4">Technologies</h2>
                 <div class="flex flex-wrap gap-3 p-8 *:text-white/50 *:hover:text-white *:cursor-pointer">
                     <SiHtml5 title='HTML' />
                     <SiCss3 title='CSS' />
@@ -38,14 +43,11 @@
                     <SiArchlinux title='Arch Linux' />
                     <SiMysql title='MySQL' />
                     <SiMongodb title='MongoDB' />
+                    <SiGraphql title='GraphQL' />
                 </div>
             </div>
         </div>
 
-        <!-- Decorative image 1 -->
-        <div class="lg:col-span-2 lg:row-span-2 bg-main rounded-3xl lg:flex justify-center items-center text-white/75 overflow-hidden hidden">
-            <img src={me} alt="Kyle Shepherd" class="object-cover h-full w-full">
-        </div>
 
         <!-- Decorative image 2 -->
         <div class="lg:col-span-2 lg:row-span-3 bg-main rounded-3xl lg:flex justify-center items-center text-white/75 overflow-hidden hidden">
@@ -54,7 +56,7 @@
 
         <!-- Main -->
         <div class="lg:col-span-4 lg:row-span-2 bg-main rounded-3xl flex justify-center items-center text-white/75">
-            <h1 class="text-4xl font-semibold text-white">Kyle Shepherd</h1>
+            <h1 class="text-4xl font-semibold text-white p-4">Kyle Shepherd</h1>
         </div>        
         
         <!-- Education grid -->
