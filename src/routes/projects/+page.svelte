@@ -1,4 +1,5 @@
 <script>
+	import { fly } from 'svelte/transition';
 	import { SiGithub, SiPolygon } from '@icons-pack/svelte-simple-icons';
 	import animax from '$lib/assets/animax-home.png';
 	import rvgd from '$lib/assets/RVGD.png';
@@ -9,11 +10,17 @@
 		class="grid h-full w-full grid-flow-row-dense gap-4 lg:min-h-[500px] lg:max-w-[1250px] lg:grid-cols-4 lg:grid-rows-8"
 	>
 		<div
+			in:fly={{ x: -50, duration: 300, delay: 600 }}
+			out:fly={{ x: -50, duration: 300 }}
 			class="bg-main flex items-center justify-center overflow-hidden rounded-3xl lg:col-span-2 lg:row-span-6"
 		>
 			<img src={animax} alt="animax | anime discovery web app" class="object-fit h-full w-full" />
 		</div>
-		<div class="bg-main flex items-center justify-center rounded-3xl lg:col-span-2 lg:row-span-4">
+		<div
+			in:fly={{ y: -50, duration: 300, delay: 600 }}
+			out:fly={{ y: -50, duration: 300 }}
+			class="bg-main flex items-center justify-center rounded-3xl lg:col-span-2 lg:row-span-4"
+		>
 			<div class="relative h-full w-full p-4">
 				<h1 class="mb-2 text-3xl font-semibold text-white">Animax</h1>
 				<p class="text-white/75">
@@ -30,12 +37,20 @@
 				</div>
 			</div>
 		</div>
-		<div class="bg-main flex items-center justify-center rounded-3xl lg:col-span-1 lg:row-span-2">
+		<div
+			in:fly={{ y: 50, duration: 300, delay: 600 }}
+			out:fly={{ y: 50, duration: 300 }}
+			class="bg-main flex items-center justify-center rounded-3xl lg:col-span-1 lg:row-span-2"
+		>
 			<div class="text-white/75">
 				<SiPolygon title="Link" size={60} />
 			</div>
 		</div>
-		<div class="bg-main flex items-center justify-center rounded-3xl lg:col-span-1 lg:row-span-2">
+		<div
+			in:fly={{ y: 50, duration: 300, delay: 600 }}
+			out:fly={{ y: 50, duration: 300 }}
+			class="bg-main flex items-center justify-center rounded-3xl lg:col-span-1 lg:row-span-2"
+		>
 			<div class="text-white/75">
 				<SiGithub title="GitHub" size={60} />
 			</div>
@@ -46,11 +61,17 @@
 		class="grid h-full w-full grid-flow-row-dense gap-4 lg:min-h-[500px] lg:max-w-[1250px] lg:grid-cols-4 lg:grid-rows-8"
 	>
 		<div
+			in:fly={{ x: -50, duration: 300, delay: 600 }}
+			out:fly={{ x: -50, duration: 300 }}
 			class="bg-main flex items-center justify-center overflow-hidden rounded-3xl lg:col-span-2 lg:row-span-6"
 		>
 			<img src={rvgd} alt="RVGD | videogame discovery web app" class="object-fit h-full w-full" />
 		</div>
-		<div class="bg-main flex items-center justify-center rounded-3xl lg:col-span-2 lg:row-span-4">
+		<div
+			in:fly={{ y: -50, duration: 300, delay: 600 }}
+			out:fly={{ y: -50, duration: 300 }}
+			class="bg-main flex items-center justify-center rounded-3xl lg:col-span-2 lg:row-span-4"
+		>
 			<div class="relative h-full w-full p-4">
 				<h1 class="mb-2 text-3xl font-semibold text-white">RVGD</h1>
 				<p class="text-white/75">
@@ -65,12 +86,20 @@
 				</div>
 			</div>
 		</div>
-		<div class="bg-main flex items-center justify-center rounded-3xl lg:col-span-1 lg:row-span-2">
+		<div
+			in:fly={{ y: 50, duration: 300, delay: 600 }}
+			out:fly={{ y: 50, duration: 300 }}
+			class="bg-main flex items-center justify-center rounded-3xl lg:col-span-1 lg:row-span-2"
+		>
 			<div class="text-white/75">
 				<SiPolygon title="Link" size={60} />
 			</div>
 		</div>
-		<div class="bg-main flex items-center justify-center rounded-3xl lg:col-span-1 lg:row-span-2">
+		<div
+			in:fly={{ y: 50, duration: 300, delay: 600 }}
+			out:fly={{ y: 50, duration: 300 }}
+			class="bg-main flex items-center justify-center rounded-3xl lg:col-span-1 lg:row-span-2"
+		>
 			<div class="text-white/75">
 				<SiGithub title="GitHub" size={60} />
 			</div>
