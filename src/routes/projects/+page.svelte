@@ -38,8 +38,8 @@
 			</div>
 		</div>
 		<div
-			in:fly={{ y: 50, duration: 300, delay: 600 }}
-			out:fly={{ y: 50, duration: 300 }}
+			in:fly={{ x: 50, duration: 300, delay: 600 }}
+			out:fly={{ x: 50, duration: 300 }}
 			class="bg-main flex items-center justify-center rounded-3xl lg:col-span-1 lg:row-span-2"
 		>
 			<div class="text-white/75">
@@ -47,8 +47,8 @@
 			</div>
 		</div>
 		<div
-			in:fly={{ y: 50, duration: 300, delay: 600 }}
-			out:fly={{ y: 50, duration: 300 }}
+			in:fly={{ x: 50, duration: 300, delay: 600 }}
+			out:fly={{ x: 50, duration: 300 }}
 			class="bg-main flex items-center justify-center rounded-3xl lg:col-span-1 lg:row-span-2"
 		>
 			<div class="text-white/75">
@@ -87,8 +87,8 @@
 			</div>
 		</div>
 		<div
-			in:fly={{ y: 50, duration: 300, delay: 600 }}
-			out:fly={{ y: 50, duration: 300 }}
+			in:fly={{ x: 50, duration: 300, delay: 600 }}
+			out:fly={{ x: 50, duration: 300 }}
 			class="bg-main flex items-center justify-center rounded-3xl lg:col-span-1 lg:row-span-2"
 		>
 			<div class="text-white/75">
@@ -96,8 +96,8 @@
 			</div>
 		</div>
 		<div
-			in:fly={{ y: 50, duration: 300, delay: 600 }}
-			out:fly={{ y: 50, duration: 300 }}
+			in:fly={{ x: 50, duration: 300, delay: 600 }}
+			out:fly={{ x: 50, duration: 300 }}
 			class="bg-main flex items-center justify-center rounded-3xl lg:col-span-1 lg:row-span-2"
 		>
 			<div class="text-white/75">

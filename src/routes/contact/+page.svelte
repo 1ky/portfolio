@@ -32,8 +32,8 @@
 			</div>
 		</div>
 		<div
-			in:fly={{ x: -50, duration: 300, delay: 600 }}
-			out:fly={{ x: -50, duration: 300 }}
+			in:fly={{ y: 50, duration: 300, delay: 600 }}
+			out:fly={{ y: 50, duration: 300 }}
 			class="bg-main flex items-center justify-center rounded-3xl text-white/75 lg:col-span-2 lg:row-span-1"
 		>
 			<div class="flex flex-col items-center justify-center gap-2">
