@@ -30,8 +30,10 @@
 			out:fly={{ x: -50, duration: 300 }}
 			class="lg:row-span- bg-main flex items-center justify-center rounded-3xl text-white/75 lg:col-span-2"
 		>
-			<div class="flex flex-col items-center justify-center gap-2">
-				<SiGithub title="GitHub" size={60} />
+			<div class="flex flex-col items-center justify-center gap-2 hover:text-white">
+				<a href="https://github.com/1ky/">
+					<SiGithub title="GitHub" size={60} />
+				</a>
 				<div class="flex flex-col items-center justify-center">
 					<h2 class="text-sm text-white/50">github.com/1ky</h2>
 				</div>

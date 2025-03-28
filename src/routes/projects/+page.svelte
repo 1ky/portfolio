@@ -42,8 +42,10 @@
 			out:fly={{ x: 50, duration: 300 }}
 			class="bg-main flex items-center justify-center rounded-3xl lg:col-span-1 lg:row-span-2"
 		>
-			<div class="text-white/75">
-				<SiPolygon title="Link" size={60} />
+			<div class="cursor-pointer text-white/75 hover:text-white">
+				<a href="https://animax-a30pi6aas-kyle-shepherds-projects-4f6fcc38.vercel.app/">
+					<SiPolygon title="Link" size={60} />
+				</a>
 			</div>
 		</div>
 		<div
@@ -51,8 +53,10 @@
 			out:fly={{ x: 50, duration: 300 }}
 			class="bg-main flex items-center justify-center rounded-3xl lg:col-span-1 lg:row-span-2"
 		>
-			<div class="text-white/75">
-				<SiGithub title="GitHub" size={60} />
+			<div class="cursor-pointer text-white/75 hover:text-white">
+				<a href="https://github.com/1ky/animax">
+					<SiGithub title="GitHub" size={60} />
+				</a>
 			</div>
 		</div>
 	</div>
@@ -91,8 +95,10 @@
 			out:fly={{ x: 50, duration: 300 }}
 			class="bg-main flex items-center justify-center rounded-3xl lg:col-span-1 lg:row-span-2"
 		>
-			<div class="text-white/75">
-				<SiPolygon title="Link" size={60} />
+			<div class="cursor-pointer text-white/75 hover:text-white">
+				<a href="https://rvgd.vercel.app/">
+					<SiPolygon title="Link" size={60} />
+				</a>
 			</div>
 		</div>
 		<div
@@ -100,8 +106,10 @@
 			out:fly={{ x: 50, duration: 300 }}
 			class="bg-main flex items-center justify-center rounded-3xl lg:col-span-1 lg:row-span-2"
 		>
-			<div class="text-white/75">
-				<SiGithub title="GitHub" size={60} />
+			<div class="cursor-pointer text-white/75 hover:text-white">
+				<a href="https://github.com/1ky/RVGD">
+					<SiGithub title="GitHub" size={60} />
+				</a>
 			</div>
 		</div>
 	</div>

@@ -15,8 +15,12 @@
 			<div
 				class="flex flex-col items-center justify-center gap-1 *:cursor-pointer *:hover:text-white"
 			>
-				<SiProtonmail title="Email" size={60} />
-				<div class="bg-highlight rounded-3xl px-2">kyshepherd@protonmail.com</div>
+				<a href="mailto:kyshepherd@protonmail.com">
+					<SiProtonmail title="Email" size={60} />
+				</a>
+				<a href="mailto:kyshepherd@protonmail.com">
+					<div class="bg-highlight rounded-3xl px-2">kyshepherd@protonmail.com</div>
+				</a>
 			</div>
 		</div>
 		<div
@@ -27,8 +31,12 @@
 			<div
 				class="flex flex-col items-center justify-center gap-1 *:cursor-pointer *:hover:text-white"
 			>
-				<SiInvision title="LinkedIn" size={60} />
-				<div class=" rounded-3xl px-2">linkedin.com/in/1ky</div>
+				<a href="https://www.linkedin.com/in/1ky/">
+					<SiInvision title="LinkedIn" size={60} />
+				</a>
+				<a href="https://www.linkedin.com/in/1ky/">
+					<div class=" rounded-3xl px-2">linkedin.com/in/1ky</div>
+				</a>
 			</div>
 		</div>
 		<div
@@ -38,7 +46,9 @@
 		>
 			<div class="flex flex-col items-center justify-center gap-2">
 				<div class="flex cursor-pointer flex-col items-center justify-center hover:text-white">
-					<SiGithub title="GitHub" size={60} />
+					<a href="https://github.com/1ky">
+						<SiGithub title="GitHub" size={60} />
+					</a>
 					<h2 class="text-sm text-white/50">github.com/1ky</h2>
 				</div>
 				<div class="">
